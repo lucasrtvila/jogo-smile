@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(90deg, #000000, #0d0dc7);
+    color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #065dff;
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 1.2em;
+}
+
+.invisivel {
+    display: none;
+}
+
+.visivel {
+    display: inline;
+}
+
+.inicial, .acertou, .errou {
+    text-align: center;
+    font-size: 80px;
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    border: 5px solid #065dff;
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.inicial {
+    background: rgba(100, 100, 100, 0.6);
+}
+
+.acertou {
+    color: #065dff;
+    border-color: #065dff;
+    background: rgba(6, 197, 255, 0.4);
+    font-size: 0%;
+}
+
+.errou {
+    color: #ff0000;
+    border-color: #ff0000;
+    background: rgba(255, 0, 0, 0.4);
+}
+
+.imagem-cobre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+#imagem {
+    width: 140px;
+    height: 190px;
+    object-fit: cover;  
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+body {
+    text-align: center;
+}
+
+#joganovamente {
+    width: auto;
+    color: #ffffff;
+    background-color: #01153b;
+}
+
+#reiniciar {
+    width: auto;
+    color: #ffffff;
+    background-color: #01153b;
+}
